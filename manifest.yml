@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: watson20122213
+  host: watson20122213
+  disk_quota: 1024M
+  services:
+  - watson20122213-cloudantNoSQLDB
